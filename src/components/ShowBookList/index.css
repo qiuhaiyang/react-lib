@@ -1,0 +1,35 @@
+.list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 1100px;
+    height: 550px;
+}
+.no-data {
+    width: 100%;
+    min-width: 1100px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load-wrap {
+    height: 550px;
+}
+.list-wrap .list-item-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    align-items: center;
+    height: 250px;
+}
+.list-wrap .list-item-wrap .book-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 3px;
+}
+.list-wrap .list-item-wrap .book-title {
+    color: black;
+    margin-top: 20px;
+}

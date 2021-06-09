@@ -1,0 +1,25 @@
+.input-wrap {
+    border-radius: 35px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    padding: 4px 18px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+.icon {
+    color: #aaa;
+    padding-right: 5px;
+
+}
+.text-input {
+    text-shadow: none;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+.error.input-wrap {
+    border-color: red;
+}

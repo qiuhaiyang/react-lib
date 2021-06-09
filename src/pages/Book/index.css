@@ -1,0 +1,27 @@
+#components-layout-demo-top-side-2 .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+.book-wrap {
+    width: 100%;
+    height: 100%;
+}
+.book-wrap .site-layout-background {
+    background: #fff;
+    overflow-y: scroll;
+}
+.book-error-wrap {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+.error-msg {
+    color: white;
+    margin-bottom: 16px;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.header-nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(30,71,135);
+    padding: 0 100px;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+.logo {
+    height: 100%;
+    width: 400px;
+    background-image: url('http://192.168.137.134:3000/public/images/logo.png');
+    background-repeat: no-repeat;
+}
+.navs {
+    height: 100%;
+}
+.navs .tips,
+.navs .router {
+    height: 50%;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.navs .tips ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.navs .tips ul li {
+    color: white;
+    margin: 0 10px;
+}
+.navs .tips ul li:hover {
+    cursor: pointer;
+}
+.navs .router .link {
+    margin-left: 40px;
+    color: white;
+    display: inline-block;
+    
+}
+.content-wrap {
+    width: 100%;
+    flex: 1;
+    position: relative;
+    overflow: auto;
+}

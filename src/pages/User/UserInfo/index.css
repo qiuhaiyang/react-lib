@@ -1,0 +1,27 @@
+.userinfo-wrap {
+    display: flex;
+    margin: 0 200px;
+}
+.userinfo-wrap .detail-info-wrap {
+    width: 60%;
+
+}
+.userinfo-wrap .detail-info-wrap p {
+    margin-bottom: 20px;
+}
+.userinfo-wrap .detail-info-wrap p label {
+    width: 150px;
+    display: inline-block;
+}
+.userinfo-wrap .detail-info-wrap p input {
+    border: none;
+    height: 30px;
+    outline: none;
+}
+.userinfo-wrap .detail-info-wrap p input.active {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.userinfo-wrap .detail-info-wrap .btn {
+    margin: 0 20px;
+}
