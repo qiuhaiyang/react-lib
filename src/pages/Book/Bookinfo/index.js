@@ -81,9 +81,9 @@ export default function Bookinfo(props) {
                     onCancel={(e) => {}}
                     okText="Yes"
                     cancelText="No"
-                    disabled={record.overdue}
+                    disabled={!record.overdue}
                 >
-                    <a href="#" className={!record.overdue ? '' : 'disabled'}>借阅</a>
+                    <a href="#" className={record.overdue ? '' : 'disabled'}>借阅</a>
                 </Popconfirm>
             )
         },
